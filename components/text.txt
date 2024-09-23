@@ -1,0 +1,89 @@
+ //State Variable - super powefull variable
+  //normal js varible written by facebook developers
+
+  //useState()--used to generate state varible.it mentains the state of appication
+  //const [listofrestorent]=useState(default value); // state varible
+  //const listofrestorent; normal varible // both are same
+  //useEffect()
+
+  //control F5
+
+
+  
+/*.Header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width: 200px;
+}
+.nav-items > ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+
+}
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card{
+    padding: 5px;
+    width: 200px;
+    height: auto;
+    margin: 5px;
+    
+}
+.res-card:hover{
+    cursor: pointer;
+    border:1px solid black;
+}
+.search{
+    padding:10px;
+}
+.res-logo{
+    width: 92%;
+    
+}
+.filer-btnn{
+    cursor: pointer;
+    margin: 10px;
+    
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    margin: 20px;
+    width: 200px;
+    height:400px;
+    background-color: bisque;
+}
+
+.login{
+    cursor: pointer;
+    margin: 20px;
+}
+.filter{
+    display: flex;
+}
+
+*/
+
+ <div className="">
+                <img className="logo" src={LoGO_URL}></img>
+            </div>
+
+             <li className="text-lg font-bold">
+                    Online Status: {onlineStatus ? "✅" : "❌"}
+                </li>
+
+
+                use build npm command

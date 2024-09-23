@@ -1,0 +1,33 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+
+[[redirects]]
+  from = "/dapi/misc/place-autocomplete"
+  to = "https://www.swiggy.com/dapi/misc/place-autocomplete"
+  status = 200
+  query = "*"
+ force = true
+headers = { "Access-Control-Allow-Origin" = "*" }
+
+
+
+[[redirects]]
+  from = "/api/menu/pl"
+  to = "https://www.swiggy.com/dapi/menu/pl"
+  status = 200
+  query = ":splat"
+  force = true
+headers = { "Access-Control-Allow-Origin" = "*" }
+
+
+[[redirects]]
+  from = "/api*"
+  to = "https://www.swiggy.com/dapi/restaurants/list/v5/:splat"
+  status = 200
+force = true
+headers = { "Access-Control-Allow-Origin" = "*" }
+
+
+
