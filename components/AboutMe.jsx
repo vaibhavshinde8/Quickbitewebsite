@@ -179,9 +179,9 @@ const AboutMe = () => {
                     <span className="pr-4">{activeItem === "resume" ? <BsUnlockFill /> : <BsLockFill />}</span>
                 </div>
                 {activeItem === "resume" && (
-                    <div className="flex w-full mb-3 justify-center items-center font-sans bg-black/5 px-2 rounded-xl  lg:w-[70%]">
+                    <div className="flex w-full mb-3 justify-center items-center font-sans bg-black/5 px-2 rounded-xl  lg:w-[70%]"> 
                         <div className="content px-4 text-sm p-2 w-full rounded-xl">
-                            <a className="flex justify-center items-center" href="https://drive.google.com/file/d/1f_UATjMJ7Hey6Ei9reRDVDbDDC8FIHS7/view?usp=drive_link" download="resume.pdf">
+                            <a className="flex justify-center items-center" href="https://drive.google.com/file/d/1KM_td9rYEFDNUiLDsu381IMGGhop7F-K/view?usp=drive_link" download="resume.pdf">
                                 <button className="flex justify-center gap-2 items-center"><img className="w-6"  alt="" /> <div className="flex items-center bg-green-400 px-4 py-2 font-bold"><BsFillInfoCircleFill  /><div className="ml-2"></div><div></div>Resume </div><span className="font-semibold text-xl"></span></button>
                             </a>
                         </div>
