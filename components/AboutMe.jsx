@@ -37,9 +37,6 @@ const AboutMe = () => {
                         <p className=" text-sm font-semibold text-gray-500">FRONTEND WEB DEVELOPER</p>
 
                     </div>
-                    <div className="right flex flex-col justify-around  bg-white items-center pr-2">
-                        <img className="w-20 rounded-full" src="https://i.postimg.cc/FsSh0wM4/DSC-0122-Copy.jpg" alt="" />
-                    </div>
                 </div>
 
 
